@@ -1,3 +1,29 @@
+.SpaceWalkers h1 {
+  font-size: 4rem;
+  padding-left: 40%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.SpaceWalkers nav {
+  padding-left: 34%;
+  padding-bottom: 1.5%;
+}
+.SpaceWalkers a {
+  padding: 3px 16px;
+  margin: 4% #454A59;
+  font-size: 2rem;
+  text-decoration: none;
+  color: dimgray;
+}
+.SpaceWalkers .btn {
+  background-color: dimgrey;
+  width: 27%;
+  height: 9%;
+  font-size: initial;
+  color: white;
+  padding: 4px 11px;
+  border-radius: 6px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +186,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+section .header {
+  display: block;
+  box-sizing: border-box;
+}
+section .header .spacewalkers {
+  margin-left: 12%;
+  padding-left: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+section .header h1 {
+  padding-left: 30%;
+}
+section .header nav {
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+section .header nav a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+section .header .intro {
+  margin-left: 12%;
+  padding: 1%;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +262,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: dimgrey;
+  width: 27%;
+  height: 9%;
+  font-size: initial;
+  color: white;
+  padding: 4px 11px;
+  border-radius: 6px;
 }
 .home .walk .walk-img {
   width: 46%;
