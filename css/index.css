@@ -24,6 +24,14 @@
   padding: 4px 11px;
   border-radius: 6px;
 }
+@media (max-width: 500px) {
+  .SpaceWalkers {
+    padding-left: 3%;
+  }
+  .SpaceWalkers .h1 {
+    padding-left: 24%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -233,15 +241,6 @@ footer {
   display: block;
   justify-content: center;
   margin-left: -30%;
-  padding-left: 30%;
-}
-@media (max-width: 500px) {
-  .home div .header .SpaceWaklkers .SpaceWalkers {
-    padding-left: 26%;
-  }
-  .home div .header .SpaceWaklkers .SpaceWalkers .h1 {
-    padding-left: 24%;
-  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -302,4 +301,11 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    .SpaceWalkers {
+      padding-left: 3%;
+    }
+  }
 }

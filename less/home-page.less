@@ -5,14 +5,7 @@
     display: block;
     justify-content: center;
     margin-left: -30%;
-    padding-left: 30%;
-        @media (max-width: 500px) {
-            .SpaceWalkers{
-              padding-left: 26%;
-              .h1{  padding-left: 24%;
-            }
-             }
-    }
+
    
   }
 
@@ -97,3 +90,10 @@
     }
   }
 // home
+@mixin for-phone-only {
+  @media (max-width: 599px) { 
+      .SpaceWalkers{
+          padding-left: 3%;
+   }
+}
+}
