@@ -35,6 +35,11 @@
   padding: 4px 11px;
   border-radius: 6px;
 }
+@media (max-width: 500px) {
+  .SpaceWalkers nav .btn {
+    width: 100%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -294,6 +299,11 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -311,6 +321,11 @@ footer {
   color: white;
   padding: 4px 11px;
   border-radius: 6px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
