@@ -3,8 +3,7 @@
   padding-left: 40%;
   margin-top: 2%;
   margin-bottom: 1%;
-  }
-
+}
 .SpaceWalkers nav {
   padding-left: 34%;
   padding-bottom: 1.5%;
@@ -25,7 +24,6 @@
   padding: 4px 11px;
   border-radius: 6px;
 }
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -253,6 +251,11 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .space-images img {
+    display: none;
+  }
+}
 .visit-planets {
   padding: 15px;
 }
@@ -296,10 +299,12 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@mixin for-phone-only {
-  @media (max-width: 599px) {
-    .SpaceWalkers {
-      padding-left: 3%;
-    }
+@media (max-width: 500px) {
+  .SpaceWalkers {
+    flex-direction: column;
+  }
+  .Container-home {
+    display: block;
+    flex-direction: column;
   }
 }
