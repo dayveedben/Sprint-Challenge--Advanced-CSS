@@ -6,7 +6,11 @@
     justify-content: center;
     margin-left: -30%;
 
-   
+       }
+  @media @phone { 
+    .h1{
+      padding-left: 10%;
+      flex-direction: column;
   }
 
   .intro {
@@ -28,15 +32,23 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      flex-direction: column;
+      
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      @media @phone{
+            
+    }
+    @media @phone{
+      .sky .launch img{
         display: none;
       }
+      
     }
    
   }
@@ -96,7 +108,8 @@
 // home
 @media @phone { 
       .SpaceWalkers{
-          flex-direction: column;
+        padding-left: 20%;
+        flex-direction: column;
    }
    .Container-home{
       display: block;
@@ -104,4 +117,4 @@
 
      }
    }
-
+  }
