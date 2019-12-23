@@ -1,34 +1,63 @@
 // Home Content
 
 .home {
+  @media @phone{
+    width: 90%;
+  }
+  div .header .SpaceWaklkers{
+    display: block;
+    justify-content: center;
+    
+
+       }
+  @media @phone { 
+    .h1{
+      padding-left: 35%;
+      flex-direction: column;
+  }
 
   .intro {
 
     h2 {
       padding: 15px;
+      
     }
 
     p {
       padding:0 15px;
     }
-  
-  }
+    
+   }
+}
+
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      flex-direction: column;
+      display: none;
+      
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-    }
+      @media @phone{
+        display: none;
+ }
+            
+  
   }
 
   .visit-planets {
     padding: 15px;
+    @media @phone {
+      margin: 3%;
+    }
 
     h3 {
       margin-top: 11px;
@@ -40,36 +69,77 @@
   }
 
   .walk {
+    flex-direction: column-reverse;
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @phone {
+      flex-direction: column-reverse;
+      margin: 10px;
+    }
+    
 
     .walk-text {
       width: 50%;
+      @media @phone{
+        width: 100%;
+        }
+      }
 
       h3 {
         margin-bottom: 10px;
+        @media @phone{
+        margin-top: 12px;
+        }
       }
 
       p {
         margin-bottom: 26px;
+      @media @phone{
+        margin: 2%;
+      }
       }
 
-      .btn {
-      }
+     
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      flex-direction: column-reverse;
+      
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
       }
+      .btn {
+        background-color: dimgrey;
+        width: 27%;
+        height: 9%;
+        font-size: initial;
+        color: white;
+        padding: 4px 11px;
+        border-radius: 6px;
+      @media @phone{
+        width: 100%;
+      }
     }
   }
-}// home
+// home
+@media @phone { 
+      .SpaceWalkers{
+        padding-left: 20%;
+        flex-direction: column;
+   }
+  
+    }
+    
+
+      
+    }
+  }
+  

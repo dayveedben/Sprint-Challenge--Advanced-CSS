@@ -33,14 +33,41 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Anwers
+ Responsive design is somewhat like the liquid and will automatically adapt to the user's device regardless of the screen size. With the adoption of CSS media queries, this kind of design method can auto-change the display style on the basis of target device.
+ 
+ This can well solve the display problems on different screen sizes.
+Adaptive design is built on the use of static breakpoint, and the page won't be adaptive anymore once it's loaded. This will load the work layout appropriately with the screen size of device.
+
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Answer
+Mobile first website means getting Mobile responsive website first simply because Google needs your website to be mobile friendly. It should suit well to the interface of any mobile and must run smoothly according to the mobile’s layout. If not, then your website might suffer low ranking on Google which can turn out to be a bad news for your business.
+
+Desktop-First - In this era of small devices like mobiles and tablets, I do not think that there will exist anything like desktop-first concept.
+
+
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+Answer
+Makes it easy to calculate the font-size of html files taking into consideration that 62.5% makes 1rem which is the same as 10px.
+
+
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Answer
+Its the best way to make css files easily accessible and less cumbersome for yourself and other code-writers. It also makes it easy to maintain the code.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Answer
+	Favourite Concept: Mixins
+	Troublesome Concept: Variables and Media queries
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
